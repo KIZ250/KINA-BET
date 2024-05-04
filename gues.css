@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(8, 5, 5);
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+@media  (min-width:355px) {
+    
+
+#backGuess{
+    text-align: center;
+}
+#backGuess #gusesBack{
+    text-align: center;
+}
+#backGuess #gusesBack #randomMachine{
+    background-color: transparent;
+    transform: translateX(30px);
+    color: rgb(255, 145, 0);
+    font-size: 120px;
+    overflow: hidden;
+    text-align: left;
+    border: 3px double rgb(185, 2, 2);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+}
+
